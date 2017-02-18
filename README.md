@@ -1,1 +1,1 @@
-"#RecognizeChessBoard" 
+"#RecognizeChessBoard"

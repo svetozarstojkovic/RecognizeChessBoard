@@ -1,0 +1,9 @@
+
+rook_b;knight_b;field_w;field_b;king_b;bishop_b;field_w;rook_b;
+pawn_b;pawn_b;pawn_b;field_w;pawn_b;pawn_b;pawn_b;pawn_b;
+field_w;field_w;field_w;field_b;field_w;knight_b;field_w;field_b;
+queen_b;field_w;field_b;field_w;knight_w;bishop_b;field_b;field_w;
+field_w;field_b;field_w;pawn_w;field_w;field_b;field_w;field_b;
+field_b;field_w;knight_w;field_w;field_b;field_w;field_b;field_w;
+pawn_w;pawn_w;pawn_w;field_b;field_w;pawn_w;pawn_w;pawn_w;
+rook_w;field_w;bishop_w;queen_w;king_w;bishop_w;field_b;rook_w;
