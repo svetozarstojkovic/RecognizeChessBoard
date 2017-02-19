@@ -32,6 +32,6 @@ else:
 main_process('images_from_phone/img4.jpg', model=model, show=True)
 
 
-# statistics()
+statistics()
 
 #statistics_for_one_file('img36.txt', stats=True)
