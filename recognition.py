@@ -242,7 +242,6 @@ def main_process(filename, model, show):
         img_name = img_name[1].split('.')
         print img_name[0]
 
-
         plt.show()
 
     return values

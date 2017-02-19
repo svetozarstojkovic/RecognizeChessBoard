@@ -47,7 +47,7 @@ def learn_nn(model):
     sgd = SGD(lr=0.1, decay=0.0001, momentum=0.7)
     model.compile(loss='mean_squared_error', optimizer=sgd, metrics=['accuracy'])
 
-    training = model.fit(train, train_out, nb_epoch=10000, batch_size=400, verbose=1)
+    training = model.fit(train, train_out, nb_epoch=5000, batch_size=400, verbose=1)
     print training.history['loss'][-1]
 
     return model

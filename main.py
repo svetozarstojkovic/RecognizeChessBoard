@@ -17,12 +17,20 @@ else:
     model.save('neural_network/model.h5')
     print("Neural network saved on disk")
 
-for index in range(1, 81):
-    print 'Doing picture: '+str(index)
-    values = main_process('smaller_images/img'+str(index)+'.png', model=model, show=False)
-    generate_output(output_name='outputs/img'+str(index)+'.txt', values=values)
+# this is for creting new outputs for testing images
 
-# main_process('smaller_images/img65.png', model=model, show=True)
+# for index in range(1, 81):
+#     print 'Doing picture: '+str(index)
+#     values = main_process('smaller_images/img'+str(index)+'.png', model=model, show=False)
+#     generate_output(output_name='outputs/img'+str(index)+'.txt', values=values)
+
+
+
+# this is for single view of image
+
+# main_process('smaller_images/img63.png', model=model, show=True)
+
+
 
 statistics()
 

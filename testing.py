@@ -39,6 +39,7 @@ def statistics():
     plt.axis([0, len(x), 0, 1])
     plt.yticks(np.arange(0, 1.05, 0.05))
     # plt.xticks(np.arange(0, len(x)+2, 4))
+    plt.grid()
     plt.show()
 
 

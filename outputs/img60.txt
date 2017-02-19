@@ -1,5 +1,5 @@
 
-rook_b;knight_b;field_w;field_b;king_b;bishop_b;field_w;rook_b;
+rook_b;knight_b;field_w;field_b;queen_b;bishop_b;field_w;rook_b;
 pawn_b;pawn_b;pawn_b;field_w;pawn_b;pawn_b;pawn_b;pawn_b;
 field_w;field_b;field_w;field_b;field_w;knight_b;field_w;field_b;
 queen_b;field_w;field_b;field_w;field_b;field_w;field_b;bishop_b;
