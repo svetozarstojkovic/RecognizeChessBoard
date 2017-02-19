@@ -28,10 +28,10 @@ else:
 
 # this is for single view of image
 
-# main_process('smaller_images/img63.png', model=model, show=True)
+# main_process('smaller_images/img36.png', model=model, show=True)
+main_process('images_from_phone/img4.jpg', model=model, show=True)
 
 
-
-statistics()
+# statistics()
 
 #statistics_for_one_file('img36.txt', stats=True)

@@ -44,7 +44,7 @@ def learn_nn(model):
     model.add(Dense(14))
     model.add(Activation('tanh'))
 
-    sgd = SGD(lr=0.1, decay=0.0001, momentum=0.7)
+    sgd = SGD(lr=0.1, decay=0.0001, momentum=0.9)
     model.compile(loss='mean_squared_error', optimizer=sgd, metrics=['accuracy'])
 
     training = model.fit(train, train_out, nb_epoch=5000, batch_size=400, verbose=1)
